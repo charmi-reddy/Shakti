@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+
+# Sensitive files
+.env.local
+config.yaml
+
+# Logs and databases
+logs/
+*.db
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Node (if any)
+node_modules/
+package-lock.json
+
+# Temporary files
+*.tmp
+*.bak
+*~

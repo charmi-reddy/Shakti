@@ -1,0 +1,63 @@
+#pragma version 10
+txn ApplicationID
+int 0
+==
+bnz main_l6
+txna ApplicationArgs 0
+byte "log_attack"
+==
+bnz main_l5
+txna ApplicationArgs 0
+byte "get_total"
+==
+bnz main_l4
+err
+main_l4:
+byte "log_count"
+app_global_get
+itob
+log
+int 1
+return
+main_l5:
+byte "log_count"
+byte "log_count"
+app_global_get
+int 1
++
+app_global_put
+byte "LOG:"
+byte "log_count"
+app_global_get
+itob
+concat
+byte "|"
+concat
+txna ApplicationArgs 1
+concat
+byte "|"
+concat
+txna ApplicationArgs 2
+concat
+byte "|"
+concat
+txna ApplicationArgs 3
+concat
+byte "|"
+concat
+txna ApplicationArgs 4
+concat
+byte "|"
+concat
+global LatestTimestamp
+itob
+concat
+log
+int 1
+return
+main_l6:
+byte "log_count"
+int 0
+app_global_put
+int 1
+return

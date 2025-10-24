@@ -1,0 +1,5 @@
+Flask
+scapy
+pyyaml
+pyteal 
+py-algorand-sdk
