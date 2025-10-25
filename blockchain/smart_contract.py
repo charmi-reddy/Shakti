@@ -69,8 +69,5 @@ if __name__ == "__main__":
     
     with open("widrs_clear.teal", "w") as f:
         f.write(clear_teal)
-    
-    print("✅ Compilation successful!")
-    print("   📄 widrs_approval.teal")
-    print("   📄 widrs_clear.teal")
-    print("\n🚀 Next step: python deploy_widrs.py")
+
+

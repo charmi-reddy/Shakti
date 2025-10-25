@@ -1,0 +1,256 @@
+/* Base Styles */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #111827;
+    color: #f1f5f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+/* Header */
+header {
+    margin-bottom: 24px;
+}
+
+h1 {
+    color: #38bdf8;
+    letter-spacing: 2px;
+    font-size: 2.5em;
+    margin-bottom: 7px;
+}
+
+.subtitle {
+    color: #64748b;
+    font-size: 1.08em;
+}
+
+/* Stats Cards */
+.stats {
+    display: flex;
+    gap: 2rem;
+    margin: 24px 0 36px 0;
+}
+
+.stat-card {
+    background: #1e293b;
+    flex: 1;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 14px rgba(0, 0, 0, 0.2);
+}
+
+.stat-value {
+    font-size: 2rem;
+    color: #22d3ee;
+    margin-bottom: 8px;
+}
+
+.stat-label {
+    font-size: 0.88rem;
+    color: #94a3b8;
+    letter-spacing: 0.5px;
+}
+
+/* Buttons */
+.btn {
+    background: #0284c7;
+    color: white;
+    border: none;
+    padding: 9px 22px;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn:hover {
+    background: #0369a1;
+}
+
+.btn-secondary {
+    background: #475569;
+}
+
+.btn-secondary:hover {
+    background: #334155;
+}
+
+/* Block Section */
+.block-section {
+    background: #1e293b;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 36px 0 26px 0;
+}
+
+.block-label {
+    color: #22d3ee;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.input-row {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+input {
+    flex: 1;
+    background: #0f172a;
+    color: #f1f5f9;
+    border: 1px solid #334155;
+    border-radius: 6px;
+    padding: 10px 12px;
+    font-size: 1em;
+}
+
+input:focus {
+    border-color: #22d3ee;
+    outline: none;
+}
+
+.block-result {
+    margin-top: 10px;
+    font-size: 0.98em;
+}
+
+.success {
+    color: #22c55e;
+}
+
+.fail {
+    color: #ef4444;
+}
+
+/* Blocked List */
+.blocked-list {
+    display: none;
+    background: #1e293b;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.blocked-list.show {
+    display: block;
+}
+
+.blocked-item {
+    background: #0f172a;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blocked-mac {
+    font-family: monospace;
+    color: #fbbf24;
+}
+
+.unblock-btn {
+    background: #22c55e;
+    border: none;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.unblock-btn:hover {
+    background: #16a34a;
+}
+
+/* Attack Table */
+.attack-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.attack-table thead {
+    background: #0f172a;
+}
+
+.attack-table th,
+.attack-table td {
+    padding: 12px 9px;
+    text-align: left;
+}
+
+.attack-table th {
+    color: #a5b4fc;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+
+.attack-table tbody tr {
+    background: #1e293b;
+    border-bottom: 1px solid #334155;
+}
+
+.attack-table tbody tr:hover {
+    background: #164e63;
+}
+
+.maccell {
+    font-family: monospace;
+    color: #14b8a6;
+}
+
+.blockbtnmac {
+    background: #ef4444;
+    border: none;
+    color: white;
+    padding: 5px 16px;
+    margin-left: 10px;
+    font-size: 0.97em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.blockbtnmac:hover {
+    background: #b91c1c;
+}
+
+.sigStrong {
+    color: #ef4444;
+    font-weight: bold;
+}
+
+.sigNormal {
+    color: #22d3ee;
+}
+
+/* Footer */
+.footer {
+    margin-top: 50px;
+    text-align: center;
+    color: #64748b;
+}
+
+.app-id {
+    font-size: 0.95em;
+    color: #64748b;
+    margin-top: 20px;
+    text-align: right;
+}
+
+/* Responsive */
+@media (max-width: 800px) {
+    .stats {
+        flex-direction: column;
+    }
+    .container {
+        padding: 10px;
+    }
+}
