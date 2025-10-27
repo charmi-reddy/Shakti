@@ -43,3 +43,11 @@ Follow the steps below to get Shakti up and running on your local machine.
    ```bash
    git clone https://github.com/charmi-reddy/Shakti.git
    cd Shakti
+2. Run this in your vscode terminal:
+   ```bash
+   pip install -r requirements.txt
+3. Run the start_shakti.bat file:
+   ```bash
+   .\start_shakti.bat
+4. Upon starting, 2 terminals will open to start the servers and then the frontend will opein your default broswer!
+
