@@ -1,10 +1,3 @@
-<div align="center">
-  
-  <h1>🔒 Shakti</h1>
-  <p><strong>Next-generation Wireless Intrusion Detection System</strong></p>
-  <p>Real-time Wi-Fi Security | Algorand Blockchain Logging | Enterprise-Grade Protection</p>
-</div>
-
 # Shakti
 
 > A secure web platform with blockchain-enabled logging and firewall protection
