@@ -1,6 +1,10 @@
-#Shakti
-A secure web platform with blockchain-enabled logging and firewall protection
-
+<div align="center">
+  <img src="assets/shakti-banner.png" alt="Shakti Banner" width="100%"/>
+  
+  <h1>🔒 Shakti</h1>
+  <p><strong>Next-generation Wireless Intrusion Detection System</strong></p>
+  <p>Real-time Wi-Fi Security | Algorand Blockchain Logging | Enterprise-Grade Protection</p>
+</div>
 
 🌟 Overview
 Shakti is a modular security-focused platform that integrates multiple cutting-edge technologies to provide a robust, transparent, and secure web application environment. Written primarily in Python and JavaScript, with supporting components in Rust and PowerShell, Shakti combines:
