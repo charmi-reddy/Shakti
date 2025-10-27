@@ -1,10 +1,18 @@
 <div align="center">
-  <img src="assets/shakti-banner.png" alt="Shakti Banner" width="100%"/>
   
   <h1>🔒 Shakti</h1>
   <p><strong>Next-generation Wireless Intrusion Detection System</strong></p>
   <p>Real-time Wi-Fi Security | Algorand Blockchain Logging | Enterprise-Grade Protection</p>
 </div>
+
+![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![React](https://img.shields.io/badge/React-18+-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Algorand](https://img.shields.io/badge/Algorand-Blockchain-00D2FF?style=for-the-badge&logo=algorand&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
+![Contributors](https://img.shields.io/github/contributors/charmi-reddy/Shakti?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/charmi-reddy/Shakti?style=for-the-badge)
+
 
 🌟 Overview
 Shakti is a modular security-focused platform that integrates multiple cutting-edge technologies to provide a robust, transparent, and secure web application environment. Written primarily in Python and JavaScript, with supporting components in Rust and PowerShell, Shakti combines:
