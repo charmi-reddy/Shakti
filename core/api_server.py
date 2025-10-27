@@ -7,7 +7,6 @@ import socket
 import sys
 import logging
 import re
-
 logging.basicConfig(level=logging.INFO)
 
 try:
