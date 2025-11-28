@@ -7,7 +7,6 @@ from datetime import datetime
 
 logging.basicConfig(level=logging.INFO)
 
-# Configuration
 HOST = "127.0.0.1"
 PORT = 9000
 MAC_REGEX = re.compile(r"^([0-9A-Fa-f]{2}:){5}[0-9A-Fa-f]{2}$")
