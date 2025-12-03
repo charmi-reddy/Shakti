@@ -8,7 +8,6 @@ use regex::Regex;
 use serde::{Deserialize, Serialize};
 use chrono::Local;
 use lazy_static::lazy_static;
-// Configuration
 const HOST: &str = "127.0.0.1";
 const PORT: u16 = 9000;
 const BLOCK_LOG_FILE: &str = "logs/blocked_macs.json";
