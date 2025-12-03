@@ -36,7 +36,7 @@ impl FirewallServer {
         }
     }
 
-    
+/// Load previously blocked MACs from file    
     fn load_blocklist(&self) -> Result<(), String> {
         let mut macs = self.blocked_macs.lock().unwrap();
         
